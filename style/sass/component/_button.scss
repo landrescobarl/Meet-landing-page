@@ -1,0 +1,42 @@
+@import '../style-guide';
+
+.button {
+    height: 6rem;
+    font-size: 1.6rem;
+    font-family: $font-family;
+    border: solid 1px;
+    border-radius: 5rem;
+    padding: 0rem 3.5rem;
+    color: $color-writer;
+}
+
+.section__buttons{
+
+    :first-child {
+        background-color: $color-button1;
+    }
+
+    :first-child::after {
+        content: " v1.3";
+        color: $color-button1-light;
+    }
+
+    :first-child:hover
+    {
+        background-color: $color-button1-hover;
+    }
+
+    :last-child {
+        background-color: $color-button2;
+    }
+
+    :last-child::after {
+        color: $color-button2-light;
+    }
+
+    :last-child:hover
+    {
+        background-color: $color-button2-hover;
+    }
+
+}

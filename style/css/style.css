@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.boxText {
+  width: 100%;
+  text-align: center;
+  padding: 6rem 0rem;
+}
+
+.boxText__title {
+  color: #28283d;
+  font-size: 3.6rem;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.boxText__text {
+  margin-top: 4rem;
+  color: #87879d;
+  font-size: 1.6rem;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.boxText__overline {
+  font-size: 1.6rem;
+  color: #4d96a8;
+  text-transform: uppercase;
+  font-family: "Red Hat Display", sans-serif;
+  letter-spacing: 0.5rem;
+  font-weight: 700;
+}
+
+.button {
+  height: 6rem;
+  font-size: 1.6rem;
+  font-family: "Red Hat Display", sans-serif;
+  border: solid 1px;
+  border-radius: 5rem;
+  padding: 0rem 3.5rem;
+  color: #fafafa;
+}
+
+.section__buttons :first-child {
+  background-color: #4d96a8;
+}
+.section__buttons :first-child::after {
+  content: " v1.3";
+  color: #8fe3f9;
+}
+.section__buttons :first-child:hover {
+  background-color: #71c0d4;
+}
+.section__buttons :last-child {
+  background-color: #855fb1;
+}
+.section__buttons :last-child::after {
+  color: #d9b8ff;
+}
+.section__buttons :last-child:hover {
+  background-color: #b18bdd;
+}
+
+.setImages {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem 2rem;
+}
+
+.setImages__items {
+  width: 16rem;
+  height: 16rem;
+  margin: 1rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px #867f7f;
+  overflow: hidden;
+}
+.setImages__items img {
+  width: 100%;
+  height: 100%;
+}
+
+.body {
+  min-width: 40rem;
+  display: grid;
+  place-items: center;
+}
+
+.header {
+  width: 100%;
+  min-height: 13rem;
+  display: grid;
+  place-items: center;
+}
+
+.main {
+  display: grid;
+  place-items: center;
+}
+
+#main__content {
+  max-width: 95rem;
+}
+
+.main__section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+  display: grid;
+  place-items: center;
+}
+
+.section__number {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0.7;
+  z-index: 1;
+}
+.section__number .line {
+  width: 2px;
+  height: 10rem;
+  background-color: rgba(135, 135, 157, 0.5);
+}
+.section__number span {
+  padding: 2rem;
+  font-size: 1.6rem;
+  font-family: "Red Hat Display", sans-serif;
+  border: 2px solid rgba(135, 135, 157, 0.5);
+  border-radius: 50%;
+  color: #87879d;
+  font-weight: 900;
+}
+.section__number span::before {
+  content: "0";
+}
+
+.head__imgHero {
+  width: 100%;
+  min-height: 18rem;
+  display: flex;
+  background-image: url("../../images/mobile/image-hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.head__imgHero .item {
+  display: none;
+}
+
+.section__head .section__number {
+  display: none;
+}
+.section__head .boxText__title {
+  padding: 0% 20%;
+}
+.section__head .boxText__text {
+  padding: 0% 7%;
+}
+.section__head .section__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.section__head .button {
+  margin: 0rem 5rem 2rem 5rem;
+}
+
+.section__body .setImages {
+  margin-top: 7rem;
+}
+.section__body .boxText__title {
+  padding: 5% 5%;
+}
+.section__body .boxText__text {
+  padding: 0% 5%;
+}
+
+.section__foot {
+  position: relative;
+  margin-top: 15rem;
+  background-image: linear-gradient(rgba(77, 150, 168, 0.8), rgba(77, 150, 168, 0.8)), url("../../images/mobile/image-footer.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section__foot .boxText__title,
+.section__foot .boxText__text {
+  color: #fafafa;
+}
+.section__foot .boxText__text {
+  padding: 0% 15%;
+}
+.section__foot .button {
+  border-color: #855fb1;
+  margin-bottom: 8rem;
+}
+.section__foot .section__number {
+  position: absolute;
+  top: -13.5rem;
+  opacity: 1;
+}
+.section__foot .section__number span {
+  background-color: #fff;
+}
+
+@media screen and (min-width: 600px) {
+  .section__head .boxText__text {
+    padding: 0% 12%;
+  }
+
+  .section__body .boxText__title {
+    padding: 5% 17%;
+  }
+  .section__body .boxText__text {
+    padding: 0% 4%;
+  }
+
+  .section__foot {
+    background-image: linear-gradient(rgba(77, 150, 168, 0.8), rgba(77, 150, 168, 0.8)), url("../../images/tablet/image-footer.jpg");
+  }
+  .section__foot .boxText__text {
+    padding: 0% 4%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .head__imgHero {
+    width: 100%;
+    max-width: 95rem;
+    background-image: none;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+  }
+  .head__imgHero .item {
+    display: block;
+    width: 24rem;
+    height: 20rem;
+  }
+  .head__imgHero .imgHero--left {
+    background-image: url("../../images/desktop/image-hero-left.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .head__imgHero .imgHero--right {
+    background-image: url("../../images/desktop/image-hero-right.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .section__head {
+    margin-bottom: 6rem;
+  }
+  .section__head .boxText {
+    width: 100%;
+    min-width: 35rem;
+    height: 35rem;
+    margin: -8rem 0rem;
+  }
+  .section__head .boxText .boxText__title {
+    padding: 0% 32%;
+  }
+  .section__head .boxText .boxText__text {
+    padding: 0% 20%;
+  }
+  .section__head .button {
+    margin: 0rem 1rem;
+  }
+
+  .section__body .boxText__title {
+    padding: 5% 28% 0%;
+  }
+  .section__body .boxText__text {
+    padding: 0% 24%;
+  }
+  .section__body .setImages {
+    margin-top: 5rem;
+  }
+
+  .section__foot {
+    background-image: linear-gradient(rgba(77, 150, 168, 0.8), rgba(77, 150, 168, 0.8)), url("../../images/desktop/image-footer.jpg");
+  }
+  .section__foot .boxText__title {
+    padding: 5% 28% 0%;
+  }
+  .section__foot .boxText__text {
+    padding: 0% 20%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

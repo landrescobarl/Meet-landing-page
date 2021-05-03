@@ -1,0 +1,16 @@
+{
+  "name": "meet-landing-page-main",
+  "version": "1.0.0",
+  "description": "## Check website online [Meet Landing Page - Frontend Mentor [Challenge]](https://meet-landing-page.netlify.app/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  }
+}

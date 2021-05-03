@@ -1,0 +1,25 @@
+
+.setImages {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 2rem;
+}
+
+.setImages__items {
+    width: 16rem;
+    height: 16rem;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px rgb(134, 127, 127);
+    overflow: hidden;
+    
+    
+    
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
