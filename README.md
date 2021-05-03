@@ -28,8 +28,8 @@ Esta es una solución al [Desafío del componente de tarjeta de vista previa de 
 
 ### Links
 
-- Solution URL:  [https://github.com/landrescobarl/frontendmentor_io]
-- Live Site URL: [https://prevew-card-component.netlify.app/]
+- Solution URL:  [https://github.com/landrescobarl/Meet-landing-page]
+- Live Site URL: [https://lmeet-landing-pagel.netlify.app/]
 
 ## My process
 
