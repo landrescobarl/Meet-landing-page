@@ -1,6 +1,6 @@
 # Frontend Mentor - Meet landing page solution
 
-Esta es una solución al [Desafío del componente de tarjeta de vista previa de estadísticas en Frontend Mentor] (https://www.frontendmentor.io/challenges/meet-landing-page-rbTDS6OUR). 
+Esta es una solución al [Desafío del landing page  en Frontend Mentor] (https://www.frontendmentor.io/challenges/meet-landing-page-rbTDS6OUR). 
 
 ## Table of contents
 
